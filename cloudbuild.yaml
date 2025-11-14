@@ -1,0 +1,8 @@
+# Source - https://stackoverflow.com/a
+# Posted by Ayoub Bensakhria
+# Retrieved 2025-11-14, License - CC BY-SA 4.0
+
+  steps:
+  # running docker-compose
+  - name: 'docker/compose:1.26.2'
+    args: ['up', '-d']
